@@ -16,4 +16,11 @@ public class HelloController {
 		return new Hello(1,"pozdrav!!!!");
 		
 	}
+	
+	@RequestMapping("/bok")
+	public Hello bok () {
+		
+		return new Hello(2,"bok!!!!");
+		
+	}
 }
